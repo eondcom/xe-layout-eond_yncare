@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* Reset */
+html,body{min-height:100%}
+body,h1{margin:0}
+
+/* Common */
+.blind{display:none}
+/* Layout */
+html{background:url('../img/bg_top.png') repeat-x}
+.container_wrap{width:100%;padding:0}
+.container_left{width:50%;height: 490px;background-image: url(../img/bg_main_l.jpg);background-repeat: no-repeat;background-position: top right;}
+.container_right{width:50%;height: 490px;background-image: url(../img/bg_main_r.jpg);background-repeat: no-repeat;background-position: top left;}
+.container{width:988px;display:block;height: 890px;background: url(../img/bg_main.jpg) no-repeat -2px 100px;}
+#header{height:100px;width:100%;}
